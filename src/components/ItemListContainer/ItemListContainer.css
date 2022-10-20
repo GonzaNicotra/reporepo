@@ -1,0 +1,16 @@
+.itemList {
+    margin-top: 3rem;
+    min-height: 70vh;
+}
+
+@media (max-width: 800px) {
+    .itemList {
+        padding-bottom: 4rem;
+    }
+}
+
+@media (min-height: 1000px) {
+    .itemList {
+        min-height: 90vh;
+    }
+}

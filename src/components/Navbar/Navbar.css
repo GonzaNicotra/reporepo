@@ -1,0 +1,25 @@
+.imagen {
+    width: 180px;
+    height: 56px;
+}
+
+.detail {
+    text-decoration: none;
+    margin-right: 1rem;
+}
+
+.nav {
+    padding: 1rem;
+}
+
+.detail:hover {
+    border-radius: 1rem;
+    border: 1px solid whitesmoke;
+}
+
+@media (min-height: 1000px) {
+    .nav {
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+    }
+}

@@ -1,0 +1,37 @@
+.inicio {
+    min-height: 100vh;
+}
+
+.textoInicio {
+    color: white;
+    text-align: center;
+    padding: 4rem 2rem 3rem 2rem;
+    font-weight: bold;
+    font-size: 2rem;
+    background-color: rgba(223, 126, 192, 0.5);
+}
+
+.bInicio {
+    background: rgba(138, 48, 126, 0.733);
+    border-radius: 0.5rem;
+    border: 1px solid rgba(138, 48, 126, 0.733);
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+    color: aliceblue;
+    margin-bottom: 5px;
+    margin-left: 2rem;
+}
+
+.bInicio:hover {
+    transform: translate(0, -2px);
+    border: 1px solid white;
+}
+
+@media (min-height: 1000px) {
+    .textoInicio {
+        margin-bottom: 10rem;
+        padding-top: 6rem;
+        padding-bottom: 6rem;
+    }
+}
