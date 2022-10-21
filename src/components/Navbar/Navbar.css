@@ -1,25 +1,50 @@
 .imagen {
-    width: 180px;
-    height: 56px;
+    width: 150px;
+    height: 60px;
+    border-radius: 20px 0px 20px 0px;
+}
+
+.imagen:hover {
+    border: 1px solid rgb(125,78,242);
 }
 
 .detail {
+    margin-right: 4rem;
+    background-color: #3c50e0;
+    border-radius: 4px;
+    font-size: 15px;
+    padding: 8px 15px!important;
+    font-weight: bold;
+    font-style: normal;
     text-decoration: none;
-    margin-right: 1rem;
 }
 
 .nav {
     padding: 1rem;
+    background: rgb(125,78,242);
+    background: linear-gradient(90deg, rgba(125,78,242,1) 7%, rgba(116,50,209,1) 44%, rgba(93,226,229,1) 100%);
+}
+
+.navDerecha {
+    display: flex;
+    justify-content: flex-end;
 }
 
 .detail:hover {
-    border-radius: 1rem;
-    border: 1px solid whitesmoke;
+    background-color: #2131a8;
 }
 
 @media (min-height: 1000px) {
     .nav {
         padding-top: 2rem;
         padding-bottom: 2rem;
+    }
+}
+
+@media (max-height: 900px) {
+    .detail {
+        margin-top: 2rem;
+        margin-bottom: 1rem;
+        font-size: 20px;
     }
 }

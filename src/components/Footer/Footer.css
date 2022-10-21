@@ -6,3 +6,8 @@
 .anchor:hover {
     color: grey;
 }
+
+.fondoFooter {
+    background: rgb(125,78,242);
+    background: linear-gradient(90deg, rgba(93,226,229,1) 7%, rgba(116,50,209,1) 44%, rgba(125,78,242,1) 100%);
+}

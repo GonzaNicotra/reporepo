@@ -6,12 +6,12 @@ import { getFirestore } from 'firebase/firestore';
 
 // Your web app's Firebase configuration
 const firebaseConfig = {
-  apiKey: "AIzaSyC5r_EI5fIVY0emIZ0wZTyhhBIzgB3cMdo",
-  authDomain: "moldearte-382f6.firebaseapp.com",
-  projectId: "moldearte-382f6",
-  storageBucket: "moldearte-382f6.appspot.com",
-  messagingSenderId: "315420823389",
-  appId: "1:315420823389:web:71c47d60b71429f293e2b4"
+  apiKey: "AIzaSyAzC1K8JzinhIcdkAP6twupPGlkoQAF-OE",
+  authDomain: "bunima-2dc2b.firebaseapp.com",
+  projectId: "bunima-2dc2b",
+  storageBucket: "bunima-2dc2b.appspot.com",
+  messagingSenderId: "872383369881",
+  appId: "1:872383369881:web:f35fae094a083555ba5e08"
 };
 
 // Initialize Firebase

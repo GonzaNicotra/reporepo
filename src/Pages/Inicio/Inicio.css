@@ -1,37 +1,123 @@
 .inicio {
-    min-height: 100vh;
+    min-height: 80vh;
+    display: flex;
+    flex-direction: row;
 }
 
-.textoInicio {
-    color: white;
-    text-align: center;
-    padding: 4rem 2rem 3rem 2rem;
+.logoInicio {
+    padding-top: 2rem;
+    width: 450px;
+    height: 180px;
+    padding-bottom: 2rem;
+}
+
+.inicioDiv {
+    display: flex;
+    flex-direction: column;
+    padding-left: 4rem;
+    padding-right: 20rem;
+    margin-right: 30rem;
+}
+
+.inicioTitulo {
+    color: rgb(7, 13, 89);
+    font-weight: bolder;
+    font-size: 54px;
+    letter-spacing: 0px;
+    line-height: 100%!important;
+}
+
+.inicioSub {
+    margin-top: 3rem;
+    color: rgb(7, 13, 89);
     font-weight: bold;
-    font-size: 2rem;
-    background-color: rgba(223, 126, 192, 0.5);
+    font-size: 28px;
 }
 
-.bInicio {
-    background: rgba(138, 48, 126, 0.733);
-    border-radius: 0.5rem;
-    border: 1px solid rgba(138, 48, 126, 0.733);
-    text-align: center;
-    font-weight: bold;
-    font-size: 20px;
-    color: aliceblue;
-    margin-bottom: 5px;
-    margin-left: 2rem;
+.inicioPreg {
+    margin-top: 6rem;
+    padding-left: 20rem;
+    padding-right: 20rem;
+    margin-bottom: 3rem;
 }
 
-.bInicio:hover {
-    transform: translate(0, -2px);
-    border: 1px solid white;
+.inicioIcons {
+    margin-bottom: 3rem;
+    padding-left: 4rem;
+    padding-right: 4rem;
 }
 
-@media (min-height: 1000px) {
-    .textoInicio {
-        margin-bottom: 10rem;
-        padding-top: 6rem;
-        padding-bottom: 6rem;
+.imagenDosDiv {
+    padding-right: 15rem;
+    padding-left: 15rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.imagenDos {
+    font-weight: bolder;
+    color: #ffffff;
+    font-size: 44px;
+    letter-spacing: 0px;
+    line-height: 150%!important;
+    font-style: normal;
+}
+
+.inicioFinal {
+    padding: 4rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.inicioFinalImg {
+    display: flex;
+    flex-direction: column;
+}
+
+.inicioFinalDiv{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.imagenOfi {
+    width: 600px;
+    height: 400px;
+}
+
+@media (max-width: 900px) {
+    .inicio {
+        width: auto;
+    }
+    .inicioPreg {
+        padding-left: 6rem;
+        padding-right: 6rem;
+    }
+    .logoInicio {
+        width: 220px;
+        height: 150px;
+    }
+    .inicioDiv {
+        margin-right: auto;
+        padding-right: 4rem;
+    }
+    .inicioIcons {
+        margin: auto;
+    }
+    .imagenDosDiv {
+        padding-right: 4rem;
+        padding-left: 4rem;
+    }
+    .inicioFinal {
+        flex-wrap: wrap;
+    }
+    .imagenOfi {
+        width: 300px;
+        height: 200px;
+        margin-bottom: 2rem;
     }
 }
