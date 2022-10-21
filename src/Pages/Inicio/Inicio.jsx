@@ -48,7 +48,7 @@ export default function Inicio() {
       <div className='inicioIcons row'>
       <div className="col">
         <img src={MG} alt="" />
-        <h4 style={{ color: 'rgb(7, 13, 89)'}}>ADMINISTACION DE ANUNCIOS</h4>
+        <h4 style={{ color: 'rgb(7, 13, 89)'}}>ADMINISTRACION DE ANUNCIOS</h4>
         <p>Anuncios 100% dedicados a tu tipo de negocio y para atracción de posibles clientes</p>
       </div>
       <div className='col'>
