@@ -1,7 +1,6 @@
 .imagen {
     width: 150px;
     height: 60px;
-    border-radius: 20px 0px 20px 0px;
 }
 
 .imagen:hover {
@@ -9,20 +8,13 @@
 }
 
 .detail {
-    margin-right: 4rem;
-    background-color: #3c50e0;
-    border-radius: 4px;
-    font-size: 15px;
-    padding: 8px 15px!important;
-    font-weight: bold;
-    font-style: normal;
     text-decoration: none;
+    margin: 1rem;
 }
 
 .nav {
     padding: 1rem;
-    background: rgb(125,78,242);
-    background: linear-gradient(90deg, rgba(125,78,242,1) 7%, rgba(116,50,209,1) 44%, rgba(93,226,229,1) 100%);
+    background-color: #5246e2;
 }
 
 .navDerecha {
@@ -32,6 +24,7 @@
 
 .detail:hover {
     background-color: #2131a8;
+    border-radius: 5px;
 }
 
 @media (min-height: 1000px) {
