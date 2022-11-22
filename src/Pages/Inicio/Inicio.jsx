@@ -1,7 +1,5 @@
 import React from 'react';
 import './Inicio.css';
-import MyBackgroundImage from '../../assets/inicio.webp'
-import LogoBunima from '../../assets/logoBunima.webp'
 import LD from '../../assets/diseñologo.png'
 import MG from '../../assets/megafono.png'
 import DW from '../../assets/diseñoweb.png'
@@ -9,7 +7,6 @@ import IF from '../../assets/inicioFooter.jpeg'
 import Ofi from '../../assets/ofi.jpg'
 import { Link } from 'react-router-dom';
 import { Button } from 'react-bootstrap';
-import Contacto from '../Contacto/Contacto';
 
 
 export default function Inicio() {
@@ -27,17 +24,6 @@ export default function Inicio() {
             <Button className='bComprar'>Contactanos</Button>
           </Link>
         </div>
-      </div>
-      <Contacto/>
-      <div className='inicioPreg'>
-        <p className='inicioSub'>Listo para crecer con una agencia digital de marketing? Consigue tu propuesta gratis hoy:</p>
-        <h3 style={{color: 'grey'}}>Nuestra agencia digital se encargo personalmente de obtener las mejores campañas de marketing digital utilizadas por los mejores empresas, negocios y emprendimientos. Pedí hoy tu estrategia gratis y se parte de la nueva generación.</h3>
-        <p className='inicioSub'>Anuncios que llegan a nada?</p>
-        <p style={{color: 'grey'}}>De los problemas mas comunes, sin embargo es tan fácil como saber administrar los anuncios con buenas imágenes y palabras claves</p>
-        <p className='inicioSub'>Logos feos y aburridos?</p>
-        <p style={{color: 'grey'}}>Algo tan simple pero a la vez importante a la hora de crecer tu negocio, tener un logo personalizado es algo esencial como una pagina web.</p>
-        <p className='inicioSub' id='Servicios'>Paginas web poco profesional?</p>
-        <p style={{color: 'grey'}}>Nos especializamos en crear paginas profesionales ya sean para tiendas o paginas corporativas personalizadas.</p>
       </div>
       <div className='inicioIcons row'>
       <div className="col">
