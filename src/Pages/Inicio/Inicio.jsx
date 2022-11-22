@@ -5,6 +5,7 @@ import MG from '../../assets/megafono.png'
 import DW from '../../assets/diseñoweb.png'
 import IF from '../../assets/inicioFooter.jpeg'
 import Ofi from '../../assets/ofi.jpg'
+import cliente from '../../assets/clientes.gif'
 import { Link } from 'react-router-dom';
 import { Button } from 'react-bootstrap';
 
@@ -13,17 +14,28 @@ export default function Inicio() {
 
   return (
     <>
-      <div className='inicioFinal'>
-        <div className='inicioFinalImg'>
+      <div className='inicio'>
+        <div className='inicioImg'>
           <img className=' imagenOfi' src={Ofi} alt="" />
         </div>
-        <div className='inicioFinalDiv'>
-          <h1 style={{ color: 'white', fontWeight:'bold'}}>Burla a la competencia con nuestras campañas</h1>
-          <h5 style={{ color: 'white' }}>Obtén mas trafico. Adquirí mas clientes. Vende mas productos. Bunima trabaja con todo tipo de negocios</h5>
+        <div className='inicioDiv'>
+          <p style={{ color: 'white', fontWeight:'bold', fontSize:'60px'}}>Descubre nuestra fórmula comprobada para el éxito</p>
+          <p style={{ color: 'white' }}>Te mereces ser visto. Estamos acá para lograrlo.</p>
           <Link to={'/contacto'}>
             <Button className='bComprar'>Contactanos</Button>
           </Link>
         </div>
+      </div>
+      <div className='inicioDivDos'>
+        <div className='inicioDivDos__uno'>
+          <p style={{fontWeight:'bold', fontSize:'20px'}}>Nuestros Servicios Dedicados</p>
+          <p style={{fontWeight:'bold', fontSize:'30px'}}>Brindamos Todos Los Servicios Exclusivos Para Clientes</p>
+        </div>
+        <div className='inicioDivDos__dos'>
+          <p style={{fontSize:'30px', padding:'2rem'}}>Nuestros clientes obtienen Soluciones envés de Propuestas</p>
+          <img className='imgCliente' src={cliente} alt="gif" />
+        </div>
+          <p style={{fontWeight:'bold', fontSize:'30px', marginTop:'4rem', backgroundColor:'#fafbff' }}>Inscríbete con nosotros y obtén tu plan GRATIS para impulsar tu negocio</p>
       </div>
       <div className='inicioIcons row'>
       <div className="col">

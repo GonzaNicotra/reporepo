@@ -1,45 +1,48 @@
 .inicio {
-    min-height: 80vh;
+    padding: 4rem;
     display: flex;
     flex-direction: row;
+    justify-content: center;
+    background-color: #5246e2;
 }
 
-.logoInicio {
-    padding-top: 2rem;
-    width: 450px;
-    height: 180px;
-    padding-bottom: 2rem;
-}
-
-.inicioDiv {
+.inicioImg {
     display: flex;
     flex-direction: column;
-    padding-left: 4rem;
-    padding-right: 20rem;
-    margin-right: 30rem;
 }
 
-.inicioTitulo {
-    color: rgb(7, 13, 89);
-    font-weight: bolder;
-    font-size: 54px;
-    letter-spacing: 0px;
-    line-height: 100%!important;
-    font-family: Arial, Helvetica, sans-serif;
+.imagenOfi {
+    width: 600px;
+    height: 400px;
 }
 
-.inicioSub {
-    margin-top: 3rem;
-    color: rgb(7, 13, 89);
-    font-weight: bold;
-    font-size: 28px;
+.inicioDiv{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
 }
 
-.inicioPreg {
-    margin-top: 6rem;
-    padding-left: 20rem;
-    padding-right: 20rem;
-    margin-bottom: 3rem;
+.inicioDivDos {
+    padding: 4rem;
+    color: #302A55;
+}
+
+.inicioDivDos__uno {
+    margin-bottom: 4rem;
+    background-color: #fafbff;
+}
+
+.inicioDivDos__dos {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.imgCliente {
+    height: 123px;
+    width: 123px;
+    margin-left: 6rem;
 }
 
 .inicioIcons {
@@ -66,47 +69,9 @@
     font-style: normal;
 }
 
-.inicioFinal {
-    padding: 4rem;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    background-color: #5246e2;
-}
 
-.inicioFinalImg {
-    display: flex;
-    flex-direction: column;
-}
-
-.inicioFinalDiv{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-}
-
-.imagenOfi {
-    width: 600px;
-    height: 400px;
-}
 
 @media (max-width: 900px) {
-    .inicio {
-        width: auto;
-    }
-    .inicioPreg {
-        padding-left: 6rem;
-        padding-right: 6rem;
-    }
-    .logoInicio {
-        width: 220px;
-        height: 150px;
-    }
-    .inicioDiv {
-        margin-right: auto;
-        padding-right: 4rem;
-    }
     .inicioIcons {
         margin: auto;
     }
@@ -114,7 +79,7 @@
         padding-right: 4rem;
         padding-left: 4rem;
     }
-    .inicioFinal {
+    .inicio {
         flex-wrap: wrap;
     }
     .imagenOfi {

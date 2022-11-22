@@ -19,12 +19,6 @@ function BasicNav() {
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className='ms-auto'>
             <NavLink to={'/contacto'} className='detail'>
-              <Nav.Link active href="#link">About</Nav.Link>
-            </NavLink>
-            <NavLink to={'/contacto'} className='detail'>
-              <Nav.Link active href="#link">Book</Nav.Link>
-            </NavLink>
-            <NavLink to={'/contacto'} className='detail'>
               <Nav.Link active href="#link">Contacto</Nav.Link>
             </NavLink>
           </Nav>
